@@ -1,0 +1,16 @@
+{
+  "name": "base64-image-fixture",
+  "version": "1.0.0",
+  "description": "Base64 image fixtures",
+  "keywords": [
+    "png",
+    "jpeg",
+    "canvas",
+    "fixture",
+    "image"
+  ],
+  "main": " ",
+  "repository": "AnNOtis/base64-image-fixture",
+  "author": "AnNOtis <altispec@gmail.com>",
+  "license": "MIT"
+}

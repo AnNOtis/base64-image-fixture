@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Base64 Image Fixture</title>
+  <style media="screen">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    *, *:after, *:before {
+      box-sizing: border-box;
+    }
+
+    h2, h3 {
+      margin-left: 20px
+    }
+
+    textarea[data-gen], img[data-gen], a[data-gen] {
+      border: 1px solid #EEE;
+      border-radius: 3px;
+      margin: 20px 0;
+      maring-right: 20px;
+    }
+
+    textarea[data-gen] {
+      display: block;
+      width: 100%;
+      padding: 20px;
+      word-break: break-all;
+    }
+
+    img[data-gen] {
+      display: block
+    }
+
+    a[data-gen] {
+      display: inline-block;
+    }
+
+    ul {
+      display: block;
+      max-width: 600px;
+      border-radius: 3px;
+      border: 1px solid #EEE;
+      padding-left: 30px;
+      padding-right: 20px;
+      margin: 20px;
+    }
+
+    #menu {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      opcity: 0.5;
+      overflow-y: auto;
+      max-height: 100%
+    }
+
+    #menu li {
+      list-style: none;
+      line-height: 2;
+    }
+  </style>
+</head>
+<body>
+  <ul id="menu"></ul>
+  <h2>PNG</h2>
+
+  <h3>Transparent</h3>
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="" data-format="image/png" data-size="1"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="" data-format="image/png" data-size="1" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="" data-format="image/png" data-size="1"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="" data-format="image/png" data-size="4"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="" data-format="image/png" data-size="4" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="" data-format="image/png" data-size="4"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="" data-format="image/png" data-size="10"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="" data-format="image/png" data-size="10" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="" data-format="image/png" data-size="10"></textarea>
+    </li>
+  </ul>
+
+  <h3>Black</h3>
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="black" data-format="image/png" data-size="1"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="black" data-format="image/png" data-size="1" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="black" data-format="image/png" data-size="1"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="black" data-format="image/png" data-size="4"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="black" data-format="image/png" data-size="4" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="black" data-format="image/png" data-size="4"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="black" data-format="image/png" data-size="10"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="black" data-format="image/png" data-size="10" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="black" data-format="image/png" data-size="10"></textarea>
+    </li>
+  </ul>
+
+  <h3>Red</h3>
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="red" data-format="image/png" data-size="1"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="red" data-format="image/png" data-size="1" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="red" data-format="image/png" data-size="1"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="red" data-format="image/png" data-size="4"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="red" data-format="image/png" data-size="4" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="red" data-format="image/png" data-size="4"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="red" data-format="image/png" data-size="10"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="red" data-format="image/png" data-size="10" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="red" data-format="image/png" data-size="10"></textarea>
+    </li>
+  </ul>
+
+  <hr>
+
+  <h2>JPEG</h2>
+
+  <h3>White</h3>
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="white" data-format="image/jpeg" data-size="1"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="white" data-format="image/jpeg" data-size="1" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="white" data-format="image/jpeg" data-size="1"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="white" data-format="image/jpeg" data-size="4"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="white" data-format="image/jpeg" data-size="4" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="white" data-format="image/jpeg" data-size="4"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="white" data-format="image/jpeg" data-size="10"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="white" data-format="image/jpeg" data-size="10" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="white" data-format="image/jpeg" data-size="10"></textarea>
+    </li>
+  </ul>
+
+  <h3>Black</h3>
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="black" data-format="image/jpeg" data-size="1"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="black" data-format="image/jpeg" data-size="1" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="black" data-format="image/jpeg" data-size="1"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="black" data-format="image/jpeg" data-size="4"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="black" data-format="image/jpeg" data-size="4" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="black" data-format="image/jpeg" data-size="4"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="black" data-format="image/jpeg" data-size="10"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="black" data-format="image/jpeg" data-size="10" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="black" data-format="image/jpeg" data-size="10"></textarea>
+    </li>
+  </ul>
+
+  <h3>Red</h3>
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="red" data-format="image/jpeg" data-size="1"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="red" data-format="image/jpeg" data-size="1" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="red" data-format="image/jpeg" data-size="1"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="red" data-format="image/jpeg" data-size="4"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="red" data-format="image/jpeg" data-size="4" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="red" data-format="image/jpeg" data-size="4"></textarea>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="#" data-gen data-color="red" data-format="image/jpeg" data-size="10"></a>
+    </li>
+    <li>
+      image:
+      <img data-gen data-color="red" data-format="image/jpeg" data-size="10" />
+    </li>
+    <li>
+      base64:
+      <textarea data-gen data-color="red" data-format="image/jpeg" data-size="10"></textarea>
+    </li>
+  </ul>
+
+  <script type="text/javascript">
+    var menuElem = document.getElementById('menu')
+    var targets = document.querySelectorAll('[data-gen]')
+    var target
+    var cache = {}
+
+    ;(function () {
+      var
+        target,
+        size,
+        color,
+        format,
+        type,
+        tmpCanvas,
+        ctx,
+        base64
+
+      for (var i = 0; i < targets.length; i += 1) {
+        target = targets[i]
+        size = parseInt(target.getAttribute('data-size') || '10')
+        color = target.getAttribute('data-color') || 'transparent'
+        format = target.getAttribute('data-format') || 'image/png'
+        type = size + '-' + color + '-' + format
+
+        if (!cache[type]) {
+          tmpCanvas = document.createElement('canvas')
+          tmpCanvas.width = size
+          tmpCanvas.height = size
+          ctx = tmpCanvas.getContext('2d')
+          ctx.fillStyle = color
+          ctx.fillRect(0, 0, size, size)
+          base64 = tmpCanvas.toDataURL(format)
+          cache[type] = {
+            size: size,
+            color: color,
+            format: format,
+            base64: base64,
+            filename: size + 'x' + size + '-' + color + '.' + format.replace('image/', '')
+          }
+        }
+
+        var info = cache[type]
+        if (target.nodeName === 'A') {
+          target.id = info.filename
+          target.href = info.base64
+          target.download = info.filename
+          target.innerHTML = 'Download - ' + info.filename
+
+          var menuLink = document.createElement('li')
+          menuLink.innerHTML = '<a href="#' + info.filename + '">' + info.filename + '</a>'
+          menuElem.appendChild(menuLink)
+        } else if (target.nodeName === 'IMG') {
+          target.src = info.base64
+        } else if (target.nodeName === 'TEXTAREA') {
+          target.value = info.base64
+          target.readOnly = true
+          target.addEventListener('click', function () {
+            this.setSelectionRange(0, target.value.length)
+          })
+        } else {
+          target.innerHTML = info.base64
+        }
+      }
+    })()
+  </script>
+</body>
+</html>
