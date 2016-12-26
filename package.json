@@ -1,6 +1,6 @@
 {
   "name": "base64-image-fixture",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Collect base64 image fixtures",
   "keywords": [
     "png",
