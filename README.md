@@ -1,4 +1,4 @@
-# Base64 image fixtures
+# Base64 image fixtures [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/base64-image-fixture)
 
 > Collect base64 images for fixture usage
 
